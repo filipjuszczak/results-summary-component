@@ -1,0 +1,27 @@
+@media (max-width: 375px) {
+  .wrapper {
+    height: auto;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .left-box {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .avg-score-box {
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .avg-score-total-points {
+    font-size: 1.7rem;
+  }
+
+  .score-description {
+    width: 90%;
+  }
+}
